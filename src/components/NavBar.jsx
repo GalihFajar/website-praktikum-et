@@ -7,9 +7,11 @@ class NavBar extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-dark">
-          <button className="btn btn-outline-primary btn-sm ml-2">Home</button>
-          <div className="m-2 d-flex justify-content-end">
+        <nav className="navbar navbar-dark row">
+          <button className="btn btn-outline-primary btn-sm ml-2 col-0">
+            Home
+          </button>
+          <div className="m-2 d-flex justify-content-end col">
             <button className="btn btn-outline-primary  btn-sm ml-2">
               Jadwal Praktikum
             </button>

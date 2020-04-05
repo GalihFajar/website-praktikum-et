@@ -9,7 +9,7 @@ class Praktikum extends Component {
       <React.Fragment>
         <div className="container">
           <div className="row justify-content-around">
-            <div className="col-sm-3 border border-primary rounded">
+            <div className="col-sm-3 border border-primary rounded mt-2 mt-md-0">
               <div className="p-2">
                 <img
                   src="/calendar2.png"
@@ -28,7 +28,7 @@ class Praktikum extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-sm-3 border border-primary rounded">
+            <div className="col-sm-3 border border-primary rounded mt-2 mt-md-0">
               <div className="p-2">
                 <img
                   src="/grade.png"
@@ -47,7 +47,7 @@ class Praktikum extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-sm-3 border border-primary rounded">
+            <div className="col-sm-3 border border-primary rounded mt-2 mt-md-0">
               <div className="p-2">
                 <img
                   src="/interpersonal.png"
