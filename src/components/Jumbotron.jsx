@@ -18,7 +18,12 @@ class Jumbotron extends Component {
               Webnya masih jelek kan? Join Bengkrad yuk kalo mau benerin UwU
             </p>
             <p className="lead">
-              <a className="btn btn-danger btn-lg" href="#" role="button">
+              <a
+                className="btn btn-danger btn-lg"
+                href="https://drive.google.com/file/d/1VtldAK6QmovToPN80vMlJAZYdmVs9zsN/view"
+                role="button"
+                target="_blank"
+              >
                 Join Sekuy
               </a>
             </p>
