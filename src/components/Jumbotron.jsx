@@ -16,6 +16,7 @@ class Jumbotron extends Component {
             <hr className="my-4" />
             <p>
               Webnya masih jelek kan? Join Bengkrad yuk kalo mau benerin UwU
+              (Pencet Tombol Di Bawah)
             </p>
             <p className="lead">
               <a
