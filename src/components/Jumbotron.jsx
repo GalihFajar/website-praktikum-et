@@ -27,6 +27,11 @@ class Jumbotron extends Component {
               >
                 Join Sekuy
               </a>
+              <div>
+                <p>
+                  Deadline <a style={{ color: "red" }}>18 April 23.59</a>
+                </p>
+              </div>
             </p>
           </div>
         </div>
