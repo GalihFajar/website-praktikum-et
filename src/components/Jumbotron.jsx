@@ -24,6 +24,7 @@ class Jumbotron extends Component {
                 href="https://drive.google.com/file/d/1VtldAK6QmovToPN80vMlJAZYdmVs9zsN/view"
                 role="button"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Join Sekuy
               </a>

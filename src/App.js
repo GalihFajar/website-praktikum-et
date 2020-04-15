@@ -2,21 +2,22 @@ import React from "react";
 import Brand from "./components/Brand";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Jumbotron from "./components/Jumbotron";
-import Praktikum from "./components/Praktikum";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Register from "./components/Register";
 import Footer from "./components/Footer";
+import LandingPage from "./components/LandingPage";
+import Login from "./components/Login";
 
 function App() {
   return (
-    <React.Fragment>
+    <Router>
       <Brand />
       <NavBar />
-      <div className="container">
-        <Jumbotron />
-        <Praktikum />
-      </div>
+      <Route path="/" exact component={LandingPage} />
+      <Route path="/register" exact component={Register} />
+      <Route path="/login" exact component={Login} />
       <Footer />
-    </React.Fragment>
+    </Router>
   );
 }
 
