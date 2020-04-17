@@ -1,10 +1,27 @@
 import React, { Component } from "react";
+import axios from "axios";
 import { Link } from "react-router-dom";
 class NavBar extends Component {
   state = {};
   styles1 = {
     color: "white",
   };
+
+  logout = (e) => {
+    e.preventDefault();
+
+    axios
+      .post("http://localhost:5000/logout")
+      .then((res) => {
+        console.log(res);
+        console.log("logout succeed");
+      })
+      .catch((error) => {
+        console.log(error);
+        console.log("logout failed");
+      });
+  };
+
   render() {
     return (
       <React.Fragment>
@@ -32,6 +49,14 @@ class NavBar extends Component {
             <Link to="/login">
               <button className="btn btn-outline-primary  btn-sm ml-2">
                 Sign In
+              </button>
+            </Link>
+            <Link to="/logout">
+              <button
+                className="btn btn-outline-primary  btn-sm ml-2"
+                onClick={this.logout}
+              >
+                Sign Out
               </button>
             </Link>
           </div>

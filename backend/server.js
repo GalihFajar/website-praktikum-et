@@ -62,6 +62,11 @@ app.post("/login", passport.authenticate("local"), (req, res) => {
   res.send();
 });
 
+app.post("/logout", (req, res) => {
+  req.logout();
+  res.send();
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port : ${port}`);
 });
